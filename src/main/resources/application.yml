@@ -7,7 +7,8 @@ server:
   port: 8080
   connection-timeout: 5000ms
   servlet:
-    context-path: /renren-fast
+    #根路径配置，斜杠不能去掉，对于的swagger地址为：http://localhost:8080/swagger-ui.html
+    context-path: /
 
 spring:
   # 环境 dev|test|prod
